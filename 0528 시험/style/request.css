@@ -1,0 +1,80 @@
+html {
+    font-family: 'noto sans kr', sans-serif;
+    width: 430px;
+    margin: 0 auto;
+}
+header {
+    background-color:#023586 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+header a {
+    width: 24px; height: 24px;
+}
+header a img {}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+main {
+    margin: 0 auto;
+}
+main h2 {
+    text-align: center;
+    padding: 60px 0 40px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+main dl {}
+main dl dt {
+    margin-bottom: 7px;
+}
+main input {}
+main label {
+    margin-bottom: 10px;
+}
+main p {
+    margin: 13px 0 25px;
+    font-size: 0.5rem;
+    text-align: center;
+}
+main a {}
+main button {
+    width: 400px; height: 40px;
+    border-radius: 10px;
+    background-color: #023586;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+main .nav {
+    display: flex;
+    flex-flow: row-nowrap;
+    background-color: #fff;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding-left: 16px;
+    height: 70px;
+    padding-top: 5px;
+}
+main .nav .main{}
+main .nav .main p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .consulting {}
+main .nav .consulting p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .delivery {}
+main .nav .delivery p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .promotion {}
+main .nav .promotion p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}

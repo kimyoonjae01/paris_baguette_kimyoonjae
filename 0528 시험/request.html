@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/request.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>상담신청 - 파리바게트</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="./img/manu.svg" alt="메뉴"></a>
+        <h1><a href="#"><img src="./img/logo_white 1.png" alt="로고"></a></h1>
+        <a href="#"><img src="./img/seah.svg" alt="검색"></a>
+    </header>
+    <main>
+        <h2>가맹점<br>상담신청</h2>
+        <form action="method">
+            <fieldset class="ahffk">
+                <legend class="skip"></legend>
+                <dl>
+                    <dt>이름</dt>
+                    <dd>
+                        <input type="text" required>
+                    </dd>
+                    <dt>번호</dt>
+                    <dd>
+                        <input type="text" required>
+                    </dd>
+                    <dt>메일</dt>
+                    <dd><input type="mail">@
+                    <select name="mail" id="mail" required>
+                        <option value="#">naver.com</option>
+                        <option value="#">google.com</option>
+                        <option value="#">kakao.com</option>
+                        <option value="#">hanmail.com</option>
+                        <option value="#">직접입력</option>
+                    </select>
+                    </dd>
+                    <dt>지역</dt>
+                    <dd><input type="text"></dd>
+                    <dt>계기</dt>
+                    <input type="checkbox" name="meter" id="internet"value="internet">
+                    <label for="internet">인터넷</label>
+                    <input type="checkbox" name="meter" id="store"value="store">
+                    <label for="store">매장방문</label>
+                    <input type="checkbox" name="meter" id="
+                    introduction"value="
+                    introduction">
+                    <label for="
+                    introduction">지인소개</label>
+                    <input type="checkbox" name="meter" id="consulting"value="consulting">
+                    <label for="consulting">컨설팅/부동산</label>
+                    <input type="checkbox" name="meter" id="etc"value="etc">
+                    <label for="etc">기타</label>
+                    <dt>내용</dt>
+                    <dd>
+                        <textarea name="#" id="#" cols="30" rows="10" required></textarea>
+                    </dd>
+                </dl>
+                <button type="submit">상담신청</button>
+            </fieldset>
+        </form>
+        <p>가맹점 관련하여 궁금한 점은 언제나 문의 주시기 바랍니다.</p>
+        <div class="nav">
+            <div class="main">
+                <a href="./index.html"><img src="./img/nav1.svg" alt=""></a>
+                <p>매장소개</p>
+            </div>
+            <div class="consulting">
+                <a href="./request.html"><img src="./img/nav2.svg" alt=""></a>
+                <p>상담신청</p>
+            </div>
+            <div class="delivery">
+                <img src="./img/nav3.svg" alt="">
+                <p>배송 서비스</p>
+            </div>
+            <div class="promotion">
+                <img src="./img/nav4.svg" alt="">
+                <p>프로모션</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

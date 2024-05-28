@@ -1,0 +1,157 @@
+html {
+    font-family: 'noto sans kr', sans-serif;
+    width: 430px;
+    margin: 0 auto;
+}
+header {
+    background-color:#023586 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+header a {
+    width: 24px; height: 24px;
+}
+header a img {}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+main {
+background-color: #E6d9B7;
+line-height: 140%;
+text-align: center;
+}
+main h1 {text-align: center; padding: 25px 0 60px;}
+main h1 img {}
+main .paris_1,
+main .paris_2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 140%;
+}
+main .paris_1 em {
+    color: #023586;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+main .effort {
+    letter-spacing: -0.2px;
+    text-align: center;
+    margin: 40px 0 20px;
+    line-height: 140%;
+    font-size: 0.875rem;
+}
+main .effort_2 {
+    letter-spacing: -0.2px;
+    text-align: center;
+    margin-bottom: 64px;
+    line-height: 140%;
+    font-size: 0.875rem;
+}
+main .img_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width: 360px; height: 120px;
+    margin: 0 auto;
+}
+main .img_box img {}
+main .paris_2 {
+    margin: 20px 0;
+    line-height: 140%;
+    letter-spacing: -0.2px;
+}
+main .paris_2 em {
+    color: #023586;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+main .introduction {
+    letter-spacing: -0.2px;
+    text-align: center;
+    line-height: 140%;
+    font-size: 0.875rem;
+    margin-bottom: 40px;
+}
+main .founded {
+    line-height: 140%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 33px;
+}
+main .founded em{
+    font-weight: 700;
+    color: #023586;
+}
+main .founded_icon {
+}
+main .founded_icon .top {
+    display: flex;
+    flex-flow: row-nowarp;
+    margin-left:30px;
+}
+main .founded_icon .top img  {
+}
+main .founded_icon .top p {
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+main .founded_icon .mid {
+    display: flex;
+    flex-flow: row-nowarp;
+    margin-left:30px;
+}
+main .founded_icon .mid img  {}
+main .founded_icon .mid p {
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+main .founded_icon .bottom {
+    display: flex;
+    flex-flow: row-nowarp;
+    margin-left:30px;
+}
+main .founded_icon .bottom img  {}
+main .founded_icon .bottom p {
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+main p {text-align: center; margin: 19px 0;}
+main p span {font-size: 0.5rem; text-align: center;}
+main img { padding: 0 0 px;}
+main .nav {
+    display: flex;
+    flex-flow: row-nowrap;
+    background-color: #fff;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding-left: 16px;
+    height: 70px;
+    padding-top: 5px;
+}
+main .nav .main{}
+main .nav .main p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .consulting {}
+main .nav .consulting p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .delivery {}
+main .nav .delivery p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+main .nav .promotion {}
+main .nav .promotion p {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
