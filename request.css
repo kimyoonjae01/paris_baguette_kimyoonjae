@@ -8,6 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 16px;
+    height: 56px;
+    align-items: center;
 }
 header a {
     width: 24px; height: 24px;
