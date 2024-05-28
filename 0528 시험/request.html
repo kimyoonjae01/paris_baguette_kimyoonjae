@@ -24,46 +24,49 @@
                 <dl>
                     <dt>이름</dt>
                     <dd>
-                        <input type="text" required>
+                        <input type="text" name="name" required value="이름을 입력해주세요">
                     </dd>
                     <dt>번호</dt>
                     <dd>
-                        <input type="text" required>
+                        <input type="text" name="phone" required value=" - 는 빼고 입력하세요 ">
                     </dd>
                     <dt>메일</dt>
-                    <dd><input type="text">@
-                    <select name="mail" id="mail" required>
-                        <option value="#">naver.com</option>
-                        <option value="#">google.com</option>
-                        <option value="#">kakao.com</option>
-                        <option value="#">hanmail.com</option>
-                        <option value="#">직접입력</option>
-                    </select>
+                    <dd>
+                        <input type="text" name="email_username" required>@ 
+                        <select name="mail_domain" id="mail" required>
+                            <option value="naver">naver.com</option>
+                            <option value="google">google.com</option>
+                            <option value="kakao">kakao.com</option>
+                            <option value="hanmail">hanmail.com</option>
+                            <option value="etc">직접입력</option>
+                        </select>
                     </dd>
                     <dt>지역</dt>
-                    <dd><input type="text"></dd>
+                    <dd>
+                        <input type="text" name="region" required value="ex)인천,서울,경기">
+                    </dd>
                     <dt>계기</dt>
-                    <input type="checkbox" name="meter" id="internet"value="internet">
-                    <label for="internet">인터넷</label>
-                    <input type="checkbox" name="meter" id="store"value="store">
-                    <label for="store">매장방문</label>
-                    <input type="checkbox" name="meter" id="
-                    introduction"value="
-                    introduction">
-                    <label for="
-                    introduction">지인소개</label>
-                    <input type="checkbox" name="meter" id="consulting"value="consulting">
-                    <label for="consulting">컨설팅/부동산</label>
-                    <input type="checkbox" name="meter" id="etc"value="etc">
-                    <label for="etc">기타</label>
+                    <dd>
+                        <input type="checkbox" name="meter" id="internet" value="internet">
+                        <label for="internet">인터넷</label>
+                        <input type="checkbox" name="meter" id="store" value="store">
+                        <label for="store">매장방문</label>
+                        <input type="checkbox" name="meter" id="introduction" value="introduction">
+                        <label for="introduction">지인소개</label>
+                        <input type="checkbox" name="meter" id="consulting" value="consulting">
+                        <label for="consulting">컨설팅/부동산</label>
+                        <input type="checkbox" name="meter" id="etc" value="etc">
+                        <label for="etc">기타</label>
+                    </dd>
                     <dt>내용</dt>
                     <dd>
-                        <textarea name="#" id="#" cols="30" rows="10" required></textarea>
+                        <textarea name="content" id="content" cols="30" rows="10" required></textarea>
                     </dd>
                 </dl>
                 <button type="submit">상담신청</button>
             </fieldset>
         </form>
+        
         <p>가맹점 관련하여 궁금한 점은 언제나 문의 주시기 바랍니다.</p>
         <div class="nav">
             <div class="main">

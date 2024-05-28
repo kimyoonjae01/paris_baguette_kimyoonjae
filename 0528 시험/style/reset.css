@@ -25,3 +25,8 @@ input, button {cursor:pointer}
     font-family: 'Font Awesome 5 Free',
     'Font Awesome 5 Brands', "Font Awesome 5 Solid";
 }
+/* 파리바게트 시험제출용 */
+html {
+    font-family: 'noto sans kr', sans-serif;
+    color:#000;
+}
